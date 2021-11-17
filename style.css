@@ -1,0 +1,102 @@
+
+.form{
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+    color:rgb(0, 0, 0);
+    
+}
+.form h2{
+    text-align: center;
+    color:rgb(0,0,0);
+}
+.form textarea{
+    max-width: 220px;
+    max-height: 300px;
+}
+
+
+.table{
+    margin: 0;
+	
+    border: rgb(0, 0, 0)
+}
+.table table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    color:rgb(0, 0, 0);
+	
+	
+
+}
+.table caption{
+    text-align: center;
+    padding: 0;
+    caption-side: top;
+    color:rgb(0,0,0);
+    font-size: 1.5em;
+	
+	
+}
+.table th{
+    padding: 0 5px;
+    font-weight: normal;
+    border-right: 1px solid rgb(0, 0, 0);
+}
+.table tr{
+    border: 1px solid rgb(0, 0, 0)
+}
+.table td{
+    border-right: 1px solid rgb(0, 0, 0);
+}
+.table tr:nth-child(even){
+    background-color: rgb(255, 202, 0);
+}
+.table tr:nth-child(odd){
+    background-color: rgb(166, 131, 0);
+}
+
+
+.header{
+display:flex;
+    background-color:#FFCA00;
+height: 100px;
+padding-top:20px;
+
+
+}
+
+.nav {
+display: flex;
+flex-direction: column;
+background-color:#FFE273;
+max-width: 900px;
+margin: 0 auto;
+}
+.logo {
+max-width:150px;
+float:left;
+margin:auto;
+}
+.menu {
+max-width:960px;
+text-align: center;
+margin:0 auto;
+display: flex;
+flex-direction: column;
+background-color:#FFE273;
+padding-top:20px;
+
+}
+
+footer{
+  background-color:#BFA130;
+    align-items: center;
+    min-height: 80px;
+    border-bottom: 1px solid rgb(0,0,0);
+    border-top: 1px solid rgb(0,0,0);
+	border-right: 1px solid rgb(0,0,0);
+	border-left: 1px solid rgb(0,0,0);
+}
